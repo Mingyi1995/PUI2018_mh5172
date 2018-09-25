@@ -11,8 +11,9 @@ Downloded a json format data by API, and plot 2 rows of it in jupyter notebook.
 
 ## Assignment 3: Tracking each vehicle for a line
 ### [show\_bus_locations.py](show_bus_locations_mh5172.py)
-This script tracks a certain _Bus Line_, and displays the activate buses' current coordinate.
+This script tracks a certain _Bus Line_, and displays the activate buses' current coordinate. The results shows in terminal. When you input a wrong _Bus Line_, this script will print "This line does not exist".
 
 ## Assignment 4: next stop information
 ### [get\_bus_info.py](get_bus_info_mh5172.py)
-This script tracks a certain _Bus Line_, and displays the activate buses' current coordinate location.
+This script tracks a certain _Bus Line_, and displays the activate buses' current status. The results will be stored as a csv file in current repository named as _bus\_line_. When you input a wrong _Bus Line_, this script will print "This line does not exist". When the OnwardCalls field is empty,  the “Stop Name” and “Stop Status” fields will be dsiplayed as 'N/A'.
+
