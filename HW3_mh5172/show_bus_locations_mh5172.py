@@ -8,7 +8,10 @@ siri_read = text['Siri']
 ServiceDelivery_read = siri_read['ServiceDelivery']
 VehicleMonitoringDelivery_read = ServiceDelivery_read['VehicleMonitoringDelivery']
 if 'ErrorCondition' in VehicleMonitoringDelivery_read[0]:
-	print ('This line does not exist')
+    if 'API key is not authorized' in VehicleMonitoringDelivery_read[0]['ErrorCondition']['OtherError']['ErrorText']:
+        print ('API key is not authorized')
+    elif 'No such route' in VehicleMonitoringDelivery_read[0]['ErrorCondition']['OtherError']['ErrorText']:
+        print ('No such route')
 else:
 	VehicleActivity_read = VehicleMonitoringDelivery_read[0]['VehicleActivity']
 	print('Bus Line:',sys.argv[2])
