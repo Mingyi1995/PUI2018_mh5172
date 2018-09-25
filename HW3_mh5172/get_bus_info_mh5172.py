@@ -26,14 +26,14 @@ STATUS = []
 for j in range(num):
     MonitoredVehicleJourney_read = VehicleActivity_read[j]['MonitoredVehicleJourney']
     OnwardCalls_read = MonitoredVehicleJourney_read['OnwardCalls']
-    Onwardcall_read = OnwardCalls_read['OnwardCall']
-    if Onwardcall_read is None:
-        stop_name == 'N/A'
-        status == 'N/A'
+    if OnwardCalls_read == {}:
+        stop_name = 'N/A'
+        status = 'N/A'
     else:
+        Onwardcall_read = OnwardCalls_read['OnwardCall']
         stop_name = Onwardcall_read[0]['StopPointName']
         status = Onwardcall_read[0]['Extensions']['Distances']['PresentableDistance']
-    STOP_NAME.append(Onwardcall_read[0]['StopPointName'])
-    STATUS.append(Onwardcall_read[0]['Extensions']['Distances']['PresentableDistance'])
+    STOP_NAME.append(stop_name)
+    STATUS.append(status)
 file = pd.DataFrame({'Latitude':LAT,'Longitude':LNG,'Stop_Name':STOP_NAME,'Status':STATUS})
 file.to_csv('%s.csv'%(sys.argv[2]),sep = ',')
