@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import sys
 url = 'http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=' + sys.argv[1] +'&VehicleMonitoringDetailLevel=calls&LineRef='+ sys.argv[2]
-if not len(sys.argv) == 3:
+if not len(sys.argv) == 4:
     print ('wrong input')
 else:
     data = requests.get(url)
@@ -37,4 +37,4 @@ else:
                 STOP_NAME.append(Onwardcall_read[0]['StopPointName'])
                 STATUS.append(Onwardcall_read[0]['Extensions']['Distances']['PresentableDistance'])
         file = pd.DataFrame({'Latitude':LAT,'Longitude':LNG,'Stop_Name':STOP_NAME,'Status':STATUS})
-        file.to_csv('%s.csv'%(sys.argv[2]),sep = ',')
+        file.to_csv('%s'%(sys.argv[3]),sep = ',')
