@@ -4,7 +4,7 @@
 ## Assignment 2: Read CSV files with pandas and use NYC open data portal
 [Assignment2_mh5172](Assignment2_mh5172.ipynb)
 
-p.s. I found some mistakes in this file one day late than the DDL (I am in the morning session), I modified it and re-uploaded . The origin file can still be found in the history. Thanks
+p.s. I found there were some mistakes in this file by myself one day later than the DDL (I am in the morning session), I modified it and re-uploaded . The original file can still be found in the history. Thanks
 ## Part 1
 Downloaded a csv format data from NYCOpenData, read, and plot 2 rows of it in jupyter notebook.
 
