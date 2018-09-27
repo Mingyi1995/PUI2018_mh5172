@@ -7,7 +7,7 @@ I created an alias named as 'pui2018' direct to the directory 'PUI2018' in the h
 ![Alt text](HW1_mh5172/terminal.png)
 
 ## Extra Credit
-[HW1\_3_mh5172.ipynb](HW1_3_mh5172.ipynb) is the extra credit assignment in last week.
+[HW1\_3_mh5172.ipynb](HW1_mh5172/HW1_3_mh5172.ipynb) is the extra credit assignment in last week.
 
 
 ## Screenshot of command line
