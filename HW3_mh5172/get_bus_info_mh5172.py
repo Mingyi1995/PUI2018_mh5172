@@ -37,4 +37,8 @@ else:
                 STOP_NAME.append(Onwardcall_read[0]['StopPointName'])
                 STATUS.append(Onwardcall_read[0]['Extensions']['Distances']['PresentableDistance'])
         file = pd.DataFrame({'Latitude':LAT,'Longitude':LNG,'Stop_Name':STOP_NAME,'Status':STATUS})
+<<<<<<< HEAD
         file.to_csv('%s'%(sys.argv[3]),sep = ',')
+=======
+        file.to_csv('%s'%(sys.argv[3]),sep = ',')
+>>>>>>> 5fb84949c86b1f389cef8e0fa6ae2ac001bcedfa
