@@ -1,4 +1,5 @@
 # Assignment 1
+
 I wrote some suggestion to Effy Fan(yf1150), and push that 
 [CitibikeReview_mh5172.md](https://github.com/effyfan/PUI2018_yf1150/blob/master/HW4_yf1150/CitibikeReview_mh5172.md) to her GitHub.
 
@@ -7,9 +8,14 @@ I wrote some suggestion to Effy Fan(yf1150), and push that
 Worked with Chand Du(cd2682) and Xiaoning He(xh1163). I finished the Logistic Regression.
 
 # Assignment 3: Reproduce the analysis of the Hard to Employ program in NY
-Employed $\chi^2$ statistics the conviction for fellonies among program group and control group.
+[effectivenes of NYC Post-Prison Employment Programs.ipynb](https://github.com/Mingyi1995/PUI2018_mh5172/blob/master/HW5_mh5172/effectivenes%20of%20NYC%20Post-Prison%20Employment%20Programs.ipynb)
+
+Employed chi-square statistics the conviction for fellonies among program group and control group.
+
 
 # Assignment 4: Tests of correlation using the scipy package with citibike data.
+[citibikes\_compare_distributions.ipynb](https://github.com/Mingyi1995/PUI2018_mh5172/blob/master/HW5_mh5172/citibikes_compare_distributions.ipynb)
+
 Use the following are 3 tests to assess correlation between 2 samples of citibike data:
 
     Pearson’s test
