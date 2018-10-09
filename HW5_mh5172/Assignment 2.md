@@ -22,8 +22,7 @@ The main plots of the paper (the plots that summarized the result)
 
 | **Statistical Analyses**  |  **IV(s)**  |  **IV type(s)** |  **DV(s)**  |  **DV type(s)**  |  **Control Var** | **Control Var type**  | **Question to be answered** | **_H0_** | **alpha** | **link to paper**| 
 |:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
-Logistic Regression | 7, Number of tubes | categorical | 84, combination of features | continuous | 5, fluorescence markers | categorical | How flow cytometry measurements from a single patient and gives a confidence score of the patient being AML-positive.| patient being AML-positive | 0.05 | [Leukemia Prediction Using Sparse Logistic Regression
-](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0072932)
+Logistic Regression | 7, Number of tubes | categorical | 84, combination of features | continuous | 5, fluorescence markers | categorical | How flow cytometry measurements from a single patient and gives a confidence score of the patient being AML-positive.| patient being AML-positive | 0.05 | [Leukemia Prediction Using Sparse Logistic Regression](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0072932)
 
 The main plots of the paper (the plots that summarized the result)
   
