@@ -26,4 +26,4 @@ Logistic Regression | 7, Number of tubes | categorical | 84, combination of feat
 
 The main plots of the paper (the plots that summarized the result)
   
-![main plot](https://github.com/Mingyi1995/PUI2018_mh5172/blob/master/HW5_mh5172/Plots.png)
+![main plot](https://github.com/Mingyi1995/PUI2018_mh5172/blob/master/HW5_mh5172/logistic.png)
