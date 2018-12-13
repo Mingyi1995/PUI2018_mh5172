@@ -1,6 +1,6 @@
 # Homework 12
 
-### I group work with Yunhe Cui
+### I group work with Yunhe Cui (yc3420)
 
 ## Assignment 1
 
