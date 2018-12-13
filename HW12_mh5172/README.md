@@ -2,6 +2,7 @@
 
 ## Assignment 1
 Find periodicity with Fourier Transforms in the time series from [HW11](https://github.com/fedhere/PUI2018_mh5172/tree/master/HW11_mh5172)
+
 Nathan (nbc270) taught me how to do plot Fourier Transforms, thanks for him!
 
 ## Assignment 2
